@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Registros de Incidencias</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <a href="menu.html" class="btn-back">
+            <i class="fas fa-arrow-left"></i>
+            <span>Volver al Menú</span>
+        </a>
+
+        <h1>Consultar Registros</h1>
+        <div class="input-group">
+            <label for="fecha-consulta">Selecciona una fecha</label>
+            <input type="date" id="fecha-consulta">
+        </div>
+        <div id="registros-container">
+            <p>Selecciona una fecha para ver las incidencias.</p>
+        </div>
+
+        <!-- BOTÓN PARA CARGAR MÁS REGISTROS -->
+        <div class="button-group" style="justify-content: center;">
+             <button id="cargar-mas-btn" class="btn-secondary" hidden>Cargar más</button>
+        </div>
+
+        <a href="menu.html" class="btn-back btn-back-bottom">
+            <i class="fas fa-arrow-left"></i>
+            <span>Volver al Menú</span>
+        </a>
+    </div>
+    <div id="loadingOverlay" hidden><div class="spinner"></div></div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/registros.js"></script>
+</body>
+</html>
