@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.xalbertxxa29.twa",
+    "sha256_cert_fingerprints": ["931D9EF9C7E3FEF24388E726C4B60EC3E64AE30755D7BD0AA8D70852A27642D3"]
+  }
+}]

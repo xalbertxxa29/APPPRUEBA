@@ -6,6 +6,7 @@ const urlsToCache = [
   '/menu.html',
   '/incidencia.html',
   '/registros.html',
+  '/add_cliente_unidad.html',
   '/css/style.css',
   '/js/firebase-config.js',
   '/js/auth.js',

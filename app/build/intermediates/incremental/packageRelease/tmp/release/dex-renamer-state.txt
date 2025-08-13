@@ -1,0 +1,4 @@
+#Wed Aug 13 15:43:21 PET 2025
+base.0=C\:\\Users\\jsolis\\Desktop\\PRUEBA APP\\APP\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
